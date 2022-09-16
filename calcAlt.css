@@ -1,0 +1,108 @@
+body {
+    background-image: url(https://sun1-23.userapi.com/impg/ZpEY_6ZWK2cvJcy22GfXNBcEzhz2XKxkPY6aTg/k2LsIPcvlFE.jpg?size=1280x720&quality=96&sign=0cfb8c7c9659dddfbe3549f3dbaf8f29&type=album);
+    display: flex;
+    align-items: center;
+    font-family:sans-serif;
+    font-size: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.calc {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    background-color: aliceblue;
+    padding: 20px;
+    /* border: 1px solid black; */
+    opacity: 1;
+    background-image: url(https://sun1-23.userapi.com/impg/ZpEY_6ZWK2cvJcy22GfXNBcEzhz2XKxkPY6aTg/k2LsIPcvlFE.jpg?size=1280x720&quality=96&sign=0cfb8c7c9659dddfbe3549f3dbaf8f29&type=album);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calc .button-box button {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-size: 1rem;
+}
+.button-box .digits {
+    width: 90%;
+    position: relative;
+    margin: auto;
+    padding: auto;
+}
+.digits button {
+    background-color:rgb(127, 144, 192);
+    border: 1px black solid;
+    color: black;
+}
+.digits button:hover {
+    cursor: pointer;
+    background-color: white;
+}
+.calc .number-boxes .input {
+    display: inline-block;
+    padding: 10px;
+}
+.calc .number-boxes textarea {
+    max-width: 300px;
+    min-width: 100px;
+    max-height: 200px;
+    min-height: 100px;
+    font-size: 1.05rem;
+}
+.calc .number-boxes textarea:hover {
+    opacity: 0.9;
+    background-color: rgb(248, 163, 163);
+}
+.calc .number-boxes .input label {
+    display: block;
+    color: bisque;
+}
+.calc .number-boxes .input label:hover {
+    color: rgb(255, 0, 0);
+}
+.operButtons button {
+   width: auto; 
+   background-color: rgb(1, 38, 132);
+   color: white;
+}
+.operButtons button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+@media (max-width: 550px) {
+    .calc {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 400px;
+    }
+    .calc .button-box button {
+        height: 40px;
+        width: 40px;
+        margin: 8px;
+        font-size: 1.1rem;
+    }
+}
+@media (max-height: 470px) {
+    .calc {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 400px;
+    }
+    .calc .button-box button {
+        height: 40px;
+        width: 40px;
+        margin: 8px;
+        font-size: 1.1rem;
+    }
+}
